@@ -1,0 +1,11 @@
+table,th,td{
+    border: 2px solid black;
+    font-style: italic; 
+}
+th{
+    background-color: bisque;
+}
+table{
+    width: 100%;
+    border-spacing: 30px;
+}

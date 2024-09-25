@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+     .head{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        padding-top: 200px;
+     }
+     .head .text{
+        margin-bottom: 90px;
+
+     }
+     .head h1{
+        font-size: 4rem;
+        color: #1f5af0;
+        margin-bottom: 10px;
+
+     }
+     .head p{
+        font-size: 20px;
+
+     }
+
+     form{
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        width: 100%;
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgb(0,0,0,0.1),
+                    0 8px 16px rgb(0,0,0,0.1)  ;
+     }
+     form input{
+        height: 55px;
+        width: 95%;
+        padding: 0 15px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 1rem;
+        margin-bottom: 15px;
+     }
+     .login{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+     }
+     .login .login1{
+        padding: 15px 0;
+        outline: none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 600;
+        background: #290ddc;
+        border-radius: 6px;
+        color: #fff;
+        cursor:pointer;
+     }
+     hr{
+        border: none;
+        height: 1px;
+        background: #ccc;
+        margin-bottom: 20px;
+        margin-top: 20px;
+     }
+     .create{
+        margin-left: 25px;
+        margin-right: 25px;
+        text-align: center;
+    
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+
+     }
+     .create .create2{
+        padding: 15px 0;
+        outline: none;
+        border: none;
+        font-size: 1rem;
+        font-weight: 600;
+        background: #47b309;
+        border-radius: 6px;
+        color: #fff;
+        cursor:pointer;
+
+     }
+     
+        
+
+    
+    </style>
+</head>
+<body>
+   
+   <div class="head">
+      <div class="text">
+            <h1>facebook</h1>
+            <p>facebook helps you connect and share <br>
+                with the people in your life
+            </p>
+      </div>
+      <div>
+            <form action="#" method="post">
+                <input type="email" placeholder="email" required>
+                <input type="password" placeholder="password" required>
+                <div class="login">
+                    <button type="submit" class="login1">log in</button>
+                    <a href="#" class="forget-password">forget password</a>
+                </div>
+                <hr>
+                <div class="create">
+                    <button type="submit" class="create2">create an account</button>
+                </div>
+            </form>
+            <p><b>create a page</b> for a celebraty brand or business </p>
+      </div>
+
+   </div> 
+ 
+    
+
+</body>
+</html>
